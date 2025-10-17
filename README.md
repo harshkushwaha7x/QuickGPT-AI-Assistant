@@ -231,17 +231,12 @@ This project is licensed under the **MIT License** — see [LICENSE](https://git
 
 ---
 
-## 💬 Support
-For support, reach out via email or GitHub issues.  
-**Email:** [harshkushwaha4151@gmail.com](mailto:harshkushwaha4151@gmail.com)
-
----
-
-## 📞 Contact
-**Harsh Kushwaha**  
-🌐 [Portfolio](https://harshkushwaha7x.github.io/Portfolio)  
-💻 [GitHub](https://github.com/harshkushwaha7x)  
-🔗 [LinkedIn](https://www.linkedin.com/in/harshkushwaha7x/)  
+## 📬 Contact
+**Harsh Kushwaha** — Developer & Maintainer  
+- Portfolio: https://harshkushwaha7x.github.io/Portfolio  
+- GitHub: https://github.com/harshkushwaha7x/QuickCart-E-Commerce  
+- LinkedIn: https://www.linkedin.com/in/harshkushwaha7x/  
+- Email: harshkushwaha4151@gmail.com
 
 ---
 
