@@ -104,7 +104,7 @@ Core highlights:
 ---
 
 ## 🧩 Architecture
-```
+```text
 QuickGPT/
 ├── client/                 # React Frontend (Vite + Tailwind)
 │   ├── src/
