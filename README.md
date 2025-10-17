@@ -1,11 +1,10 @@
 <div align="center">
 
 # QUICKGPT 🤖  
-AI-Powered Content Generation Platform  
 
 **QuickGPT** is a cutting-edge content generation platform built using advanced AI technologies. It includes an intuitive user interface, fast processing, and seamless integration for generating text content — ideal for writers, marketers, and businesses.
 
-[Live Demo](https://quick-gpt-ai-assistant.vercel.app/) • [Portfolio](https://harshkushwaha7x.github.io/Portfolio) • [GitHub](https://github.com/harshkushwaha7x/QuickGPT-AI-Assistant)
+[Live Demo](https://quick-gpt-ai-assistant.vercel.app/) • [Portfolio](https://harshkushwaha7x.github.io/Portflio.2/) • [GitHub](https://github.com/harshkushwaha7x/QuickGPT-AI-Assistant)
 
 </div>
 
@@ -19,6 +18,8 @@ AI-Powered Content Generation Platform
 </p>
 
 </div>
+
+---
 
 ## 🧠 Overview
 **QuickGPT** is a full-stack AI-powered content generation platform that enables users to generate intelligent text, images, and creative assets in real time.  
