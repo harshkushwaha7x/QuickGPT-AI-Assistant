@@ -3,44 +3,22 @@
 # QUICKGPT 🤖  
 AI-Powered Content Generation Platform  
 
-![Last Commit](https://img.shields.io/github/last-commit/harshkushwaha7x/QuickGPT-AI-Assistant?style=flat-square)  
-![Languages](https://img.shields.io/github/languages/top/harshkushwaha7x/QuickGPT-AI-Assistant?style=flat-square&color=blue)  
-![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)  
-![Version](https://img.shields.io/badge/version-1.0.0-success?style=flat-square)  
+**QuickGPT** is a cutting-edge content generation platform built using advanced AI technologies. It includes an intuitive user interface, fast processing, and seamless integration for generating text content — ideal for writers, marketers, and businesses.
 
-*Powered by cutting-edge AI technologies:*  
-
-![React](https://img.shields.io/badge/React-19.1.1-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
-![Express](https://img.shields.io/badge/Express-5.1.0-000000?style=flat-square&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![ImageKit](https://img.shields.io/badge/ImageKit-FF0000?style=flat-square&logo=imagekit&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=flat-square&logo=stripe&logoColor=white)
-
-## 🌐 LIVE DEMO  
-Visit the 👉 [_QUICKGPT Live_](https://quick-gpt-ai-assistant.vercel.app/)
+[Live Demo](https://quick-gpt-ai-assistant.vercel.app/) • [Portfolio](https://harshkushwaha7x.github.io/Portfolio) • [GitHub](https://github.com/harshkushwaha7x/QuickGPT-AI-Assistant)
 
 </div>
 
 ---
 
-## 📘 Table of Contents
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [Tech Stack](#tech-stack)
-- [Architecture](#architecture)
-- [Getting Started](#getting-started)
-- [AI Capabilities](#ai-capabilities)
-- [API Endpoints](#api-endpoints)
-- [Payment Integration](#payment-integration)
-- [Deployment](#deployment)
-- [Performance](#performance)
-- [Contributing](#contributing)
-- [License](#license)
-- [Support](#support)
-- [Contact](#contact)
+<p align="center">
+  <a href="https://github.com/harshkushwaha7x/QuickGPT-AI-Assistant"><img src="https://img.shields.io/github/last-commit/harshkushwaha7x/QuickGPT-AI-Assistant?style=flat-square" alt="last commit"></a>
+  <a href="https://github.com/harshkushwaha7x/QuickGPT-AI-Assistant"><img src="https://img.shields.io/github/languages/top/harshkushwaha7x/QuickGPT-AI-Assistant?style=flat-square" alt="languages"></a>
+  <a href="https://github.com/harshkushwaha7x/QuickGPT-AI-Assistant/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="license" /></a>
+  <img src="https://img.shields.io/badge/version-1.0.0-success?style=flat-square" alt="version" />
+</p>
 
----
+</div>
 
 ## 🧠 Overview
 **QuickGPT** is a full-stack AI-powered content generation platform that enables users to generate intelligent text, images, and creative assets in real time.  
