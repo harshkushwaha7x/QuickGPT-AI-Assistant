@@ -3,22 +3,22 @@
 # QUICKGPT 🤖  
 AI-Powered Content Generation Platform  
 
-![Last Commit](https://img.shields.io/github/last-commit/harshkushwaha7x/QuickGPT?style=flat-square)  
-![Languages](https://img.shields.io/github/languages/top/harshkushwaha7x/QuickGPT?style=flat-square&color=blue)  
-![License](https://img.shields.io/badge/license-ISC-blue?style=flat-square)  
+![Last Commit](https://img.shields.io/github/last-commit/harshkushwaha7x/QuickGPT-AI-Assistant?style=flat-square)  
+![Languages](https://img.shields.io/github/languages/top/harshkushwaha7x/QuickGPT-AI-Assistant?style=flat-square&color=blue)  
+![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)  
 ![Version](https://img.shields.io/badge/version-1.0.0-success?style=flat-square)  
 
 *Powered by cutting-edge AI technologies:*  
 
 ![React](https://img.shields.io/badge/React-19.1.1-61DAFB?style=flat-square&logo=react&logoColor=black)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-5.1.0-000000?style=flat-square&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![ImageKit](https://img.shields.io/badge/ImageKit-FF0000?style=flat-square&logo=imagekit&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=flat-square&logo=stripe&logoColor=white)
 
 ## 🌐 LIVE DEMO  
-Visit the 👉 [_QUICKGPT Live_](https://quickgpt.vercel.app)
+Visit the 👉 [_QUICKGPT Live_](https://quick-gpt-ai-assistant.vercel.app/)
 
 </div>
 
@@ -47,25 +47,26 @@ Visit the 👉 [_QUICKGPT Live_](https://quickgpt.vercel.app)
 It combines **Generative AI**, **MERN Stack**, and **cloud technologies** to deliver seamless and scalable performance.  
 
 Core highlights:
-- 💬 **AI Chat Assistant**: GPT-based intelligent conversations  
-- 🎨 **AI Image Generation**: Create visuals using AI prompts  
-- 📝 **Content Creation**: Generate blogs, articles, and summaries  
-- 💳 **Credit System**: Pay-per-use model with Stripe  
-- 👥 **Community Sharing**: Discover and share AI creations  
+- 💬 **AI Chat Assistant**: Gemini Pro-powered intelligent conversations  
+- 🎨 **AI Image Generation**: Create visuals using ImageKit AI prompts  
+- 💳 **Credit System**: Pay-per-use model with Stripe integration  
+- 👥 **Community Gallery**: Discover and share AI-generated images  
+- 🔐 **Secure Authentication**: JWT-based user management  
 
 ---
 
 ## 🚀 Key Features
 
 ### 🤖 AI-Powered Generation
-- GPT-4 & DALL·E integration for text and image generation  
-- Customizable parameters (temperature, tokens, etc.)  
-- Real-time conversational interface  
+- Google Gemini Pro for intelligent text conversations  
+- ImageKit AI for high-quality image generation  
+- Real-time chat interface with message history  
+- Credit-based usage system (1 credit for text, 2 for images)  
 
 ### 💰 Credit System
-- Pay-per-use credits  
-- Stripe payment integration  
-- Free trial credits for new users  
+- Pay-per-use credits (1 for text, 2 for images)  
+- Stripe payment integration with 3 plans (Basic $10/100 credits, Pro $20/500 credits, Premium $30/1000 credits)  
+- 5 free trial credits for new users  
 
 ### 👤 User Management
 - JWT authentication  
@@ -81,43 +82,51 @@ Core highlights:
 ## ⚙️ Tech Stack
 
 ### Frontend
-- React 19 + Vite  
+- React 19.1.1 + Vite  
 - Tailwind CSS  
-- Axios & React Router  
+- Axios & React Router DOM  
 - React Hot Toast for notifications  
+- React Markdown & Prism.js for rendering
 
 ### Backend
 - Node.js + Express 5  
 - MongoDB & Mongoose  
-- OpenAI API integration  
+- Google Gemini Pro API integration  
 - Stripe & ImageKit  
+- JWT Authentication & bcryptjs
 
 ### DevOps / Cloud
 - Vercel (Frontend)  
 - Render / Railway (Backend)  
 - MongoDB Atlas (Database)  
-- Docker & CI/CD Workflows  
+- Docker & CI/CD Workflows (optional)
 
 ---
 
 ## 🧩 Architecture
 ```
 QuickGPT/
-├── client/                 # React Frontend
+├── client/                 # React Frontend (Vite + Tailwind)
 │   ├── src/
-│   │   ├── components/    # Reusable UI components
-│   │   ├── pages/         # Application pages
-│   │   ├── context/       # Global state management
+│   │   ├── components/    # ChatBox, Sidebar UI components
+│   │   ├── pages/         # Login, Credits, Community, Loading
+│   │   ├── context/       # AppContext for global state
+│   │   ├── assets/        # Images, icons, CSS files
 │   │   └── main.jsx       # Entry point
-│   └── package.json       
+│   ├── package.json       # Dependencies & scripts
+│   └── vite.config.js     # Vite configuration
 │
-├── server/                # Express Backend
-│   ├── config/            
-│   ├── controllers/       
-│   ├── models/            
-│   ├── routes/            
-│   └── server.js          
-└── LICENSE
+├── server/                # Express Backend + MongoDB
+│   ├── configs/           # DB, Gemini, ImageKit configs
+│   ├── controllers/       # Chat, Message, User, Credit logic
+│   ├── models/            # User, Chat, Transaction schemas
+│   ├── routes/            # API route definitions
+│   ├── middlewares/       # JWT authentication middleware
+│   └── server.js          # Express server setup
+│
+├── .gitignore             # Git ignore rules
+├── LICENSE                # MIT License
+└── README.md              # Project documentation
 ```
 
 ---
@@ -127,12 +136,14 @@ QuickGPT/
 ### Prerequisites
 - Node.js v18+
 - MongoDB Atlas account
-- OpenAI, ImageKit, and Stripe API keys
+- Google Gemini Pro API key
+- ImageKit account (Public, Private keys + URL endpoint)
+- Stripe account for payments
 
 ### Installation
 ```bash
-git clone https://github.com/harshkushwaha7x/QuickGPT.git
-cd QuickGPT
+git clone https://github.com/harshkushwaha7x/QuickGPT-AI-Assistant.git
+cd QuickGPT-AI-Assistant
 ```
 
 #### Install Dependencies
@@ -144,7 +155,7 @@ cd server && npm install
 #### Environment Variables
 **Client (.env):**
 ```env
-VITE_API_BASE_URL=http://localhost:5000
+VITE_API_BASE_URL=http://localhost:3000
 VITE_IMAGEKIT_URL_ENDPOINT=your-imagekit-endpoint
 VITE_STRIPE_PUBLISHABLE_KEY=pk_test_...
 ```
@@ -152,28 +163,31 @@ VITE_STRIPE_PUBLISHABLE_KEY=pk_test_...
 **Server (.env):**
 ```env
 MONGODB_URI=your-mongodb-uri
-OPENAI_API_KEY=sk-your-openai-key
+GEMINI_API_KEY=your-gemini-api-key
+IMAGEKIT_URL_ENDPOINT=your-imagekit-endpoint
+IMAGEKIT_PUBLIC_KEY=your-imagekit-public-key
+IMAGEKIT_PRIVATE_KEY=your-imagekit-private-key
 STRIPE_SECRET_KEY=sk_test_...
 JWT_SECRET=your-jwt-secret
-PORT=5000
+PORT=3000
 ```
 
 #### Run Project
 ```bash
-# Terminal 1
+# Terminal 1 - Start Backend (Port 3000)
 cd server && npm run server
 
-# Terminal 2
+# Terminal 2 - Start Frontend (Port 5173)
 cd client && npm run dev
 ```
 
 ---
 
 ## 🧠 AI Capabilities
-- GPT-4 text generation  
-- DALL·E image generation  
-- LangChain and prompt optimization  
-- Real-time streaming responses  
+- **Google Gemini Pro**: Advanced text generation and conversations  
+- **ImageKit AI**: High-quality image generation from text prompts  
+- **Real-time Chat**: Instant message processing and responses  
+- **Smart Credit System**: 1 credit for text, 2 credits for images  
 
 ---
 
@@ -181,6 +195,32 @@ cd client && npm run dev
 - Stripe for secure payments  
 - Free trial credits  
 - Transaction history tracking  
+
+---
+
+## 🔌 API Endpoints
+
+### Authentication
+- `POST /api/user/register` - User registration
+- `POST /api/user/login` - User login  
+- `GET /api/user/data` - Get user profile
+
+### Chat Management
+- `GET /api/chat/create` - Create new chat
+- `GET /api/chat/get` - Get all user chats
+- `POST /api/chat/delete` - Delete specific chat
+
+### AI Generation
+- `POST /api/message/text` - Generate AI text response (1 credit)
+- `POST /api/message/image` - Generate AI image (2 credits)
+
+### Credits & Payments
+- `GET /api/credit/plan` - Get available credit plans
+- `POST /api/credit/purchase` - Purchase credit plan
+- `POST /api/stripe` - Stripe webhook handler
+
+### Community
+- `GET /api/user/published-images` - Get community gallery images
 
 ---
 
@@ -208,8 +248,7 @@ cd client && npm run dev
 ---
 
 ## 🪪 License
-Distributed under the ISC License.  
-See the [LICENSE](LICENSE) file for details.  
+This project is licensed under the **MIT License** — see [LICENSE](https://github.com/harshkushwaha7x/QuickGPT-AI-Assistant/blob/main/LICENSE).
 
 ---
 
@@ -225,16 +264,10 @@ For support, reach out via email or GitHub issues.
 💻 [GitHub](https://github.com/harshkushwaha7x)  
 🔗 [LinkedIn](https://www.linkedin.com/in/harshkushwaha7x/)  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harshkushwaha7x/)  
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/harshkushwaha7x)  
-
 ---
 
 <div align="center">
 
 **QUICKGPT** – Unleash Your Creativity with AI 🚀  
-*Built with ❤️ by [Harsh Kushwaha](https://harshkushwaha7x.github.io/Portfolio)*  
-
-[⬆ Back to Top](#table-of-contents)
-
+Built by <b>Harsh Kushwaha</b>
 </div>
