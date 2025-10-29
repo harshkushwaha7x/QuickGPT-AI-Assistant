@@ -4,7 +4,7 @@
 
 **QuickGPT** is a cutting-edge content generation platform built using advanced AI technologies. It includes an intuitive user interface, fast processing, and seamless integration for generating text content — ideal for writers, marketers, and businesses.
 
-[Live Demo](https://quick-gpt-ai-assistant.vercel.app/) • [Portfolio](https://harshkushwaha7x.github.io/Portflio.2/) • [GitHub](https://github.com/harshkushwaha7x/QuickGPT-AI-Assistant)
+[Live Demo](https://quick-gpt-ai-assistant.vercel.app/) • [Portfolio](https://harshkushwaha7x.github.io/Portflio.2/) • [GitHub](https://github.com/harshkushwaha7x)
 
 </div>
 
@@ -233,9 +233,9 @@ This project is licensed under the **MIT License** — see [LICENSE](https://git
 
 ## 📬 Contact
 **Harsh Kushwaha** — Developer & Maintainer  
-- Portfolio: https://harshkushwaha7x.github.io/Portfolio  
-- GitHub: https://github.com/harshkushwaha7x/QuickCart-E-Commerce  
-- LinkedIn: https://www.linkedin.com/in/harshkushwaha7x/  
+- Portfolio: https://harshkushwaha7x.github.io/Portflio.2/  
+- GitHub: https://github.com/harshkushwaha7x  
+- LinkedIn: https://www.linkedin.com/in/harsh-kushwaha-7x
 - Email: harshkushwaha4151@gmail.com
 
 ---
