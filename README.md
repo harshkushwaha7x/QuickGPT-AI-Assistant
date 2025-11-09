@@ -4,7 +4,7 @@
 
 **QuickGPT** is a cutting-edge content generation platform built using advanced AI technologies. It includes an intuitive user interface, fast processing, and seamless integration for generating text content — ideal for writers, marketers, and businesses.
 
-[Live Demo](https://quick-gpt-ai-assistant.vercel.app/) • [Portfolio](https://harshkushwaha7x.github.io/Portflio.2/) • [GitHub](https://github.com/harshkushwaha7x)
+[Live Demo](https://quick-gpt-ai-assistant.vercel.app/) • [Portfolio](https://portflio-3.vercel.app/) • [GitHub](https://github.com/harshkushwaha7x)
 
 </div>
 
