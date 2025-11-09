@@ -233,7 +233,7 @@ This project is licensed under the **MIT License** — see [LICENSE](https://git
 
 ## 📬 Contact
 **Harsh Kushwaha** — Developer & Maintainer  
-- Portfolio: https://harshkushwaha7x.github.io/Portflio.2/  
+- Portfolio: https://portflio-3.vercel.app/ 
 - GitHub: https://github.com/harshkushwaha7x  
 - LinkedIn: https://www.linkedin.com/in/harsh-kushwaha-7x
 - Email: harshkushwaha4151@gmail.com
