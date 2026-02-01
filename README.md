@@ -1,10 +1,10 @@
 <div align="center">
 
-# QUICKGPT 🤖  
+# QUICKGPT  
 
 **QuickGPT** is a cutting-edge content generation platform built using advanced AI technologies. It includes an intuitive user interface, fast processing, and seamless integration for generating text content — ideal for writers, marketers, and businesses.
 
-[Live Demo](https://quick-gpt-ai-assistant.vercel.app/) • [Portfolio](https://portflio-3.vercel.app/) • [GitHub](https://github.com/harshkushwaha7x)
+[Live Demo](https://quick-gpt-ai-assistant.vercel.app/) • [Portfolio](https://portfolio-harsh7x.vercel.app/) • [GitHub](https://github.com/harshkushwaha7x)
 
 </div>
 
@@ -21,44 +21,44 @@
 
 ---
 
-## 🧠 Overview
+## Overview
 **QuickGPT** is a full-stack AI-powered content generation platform that enables users to generate intelligent text, images, and creative assets in real time.  
 It combines **Generative AI**, **MERN Stack**, and **cloud technologies** to deliver seamless and scalable performance.  
 
 Core highlights:
-- 💬 **AI Chat Assistant**: Gemini Pro-powered intelligent conversations  
-- 🎨 **AI Image Generation**: Create visuals using ImageKit AI prompts  
-- 💳 **Credit System**: Pay-per-use model with Stripe integration  
-- 👥 **Community Gallery**: Discover and share AI-generated images  
-- 🔐 **Secure Authentication**: JWT-based user management  
+- **AI Chat Assistant**: Gemini Pro-powered intelligent conversations  
+- **AI Image Generation**: Create visuals using ImageKit AI prompts  
+- **Credit System**: Pay-per-use model with Stripe integration  
+- **Community Gallery**: Discover and share AI-generated images  
+- **Secure Authentication**: JWT-based user management  
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-### 🤖 AI-Powered Generation
+### AI-Powered Generation
 - Google Gemini Pro for intelligent text conversations  
 - ImageKit AI for high-quality image generation  
 - Real-time chat interface with message history  
 - Credit-based usage system (1 credit for text, 2 for images)  
 
-### 💰 Credit System
+### Credit System
 - Pay-per-use credits (1 for text, 2 for images)  
 - Stripe payment integration with 3 plans (Basic $10/100 credits, Pro $20/500 credits, Premium $30/1000 credits)  
 - 5 free trial credits for new users  
 
-### 👤 User Management
+### User Management
 - JWT authentication  
 - Profile management and content history  
 - Secure, scalable REST APIs  
 
-### 🖼️ Media Management
+### Media Management
 - ImageKit CDN integration  
 - Optimized image storage and delivery  
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - React 19.1.1 + Vite  
@@ -82,7 +82,7 @@ Core highlights:
 
 ---
 
-## 🧩 Architecture
+## Architecture
 ```text
 QuickGPT/
 ├── client/                 # React Frontend (Vite + Tailwind)
@@ -110,7 +110,7 @@ QuickGPT/
 
 ---
 
-## 🧰 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js v18+
@@ -162,7 +162,7 @@ cd client && npm run dev
 
 ---
 
-## 🧠 AI Capabilities
+## AI Capabilities
 - **Google Gemini Pro**: Advanced text generation and conversations  
 - **ImageKit AI**: High-quality image generation from text prompts  
 - **Real-time Chat**: Instant message processing and responses  
@@ -170,14 +170,14 @@ cd client && npm run dev
 
 ---
 
-## 💳 Payment Integration
+## Payment Integration
 - Stripe for secure payments  
 - Free trial credits  
 - Transaction history tracking  
 
 ---
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /api/user/register` - User registration
@@ -203,14 +203,14 @@ cd client && npm run dev
 
 ---
 
-## ☁️ Deployment
+## Deployment
 - Frontend → Vercel  
 - Backend → Render/Railway  
 - Database → MongoDB Atlas  
 
 ---
 
-## ⚡ Performance
+## Performance
 - Vite-optimized builds  
 - Fast API response times  
 - Secure JWT auth  
@@ -218,7 +218,7 @@ cd client && npm run dev
 
 ---
 
-## 🤝 Contributing
+## Contributing
 1. Fork this repository  
 2. Create a feature branch (`git checkout -b feature-name`)  
 3. Commit changes (`git commit -m "Add new feature"`)  
@@ -226,14 +226,14 @@ cd client && npm run dev
 
 ---
 
-## 🪪 License
+## License
 This project is licensed under the **MIT License** — see [LICENSE](https://github.com/harshkushwaha7x/QuickGPT-AI-Assistant/blob/main/LICENSE).
 
 ---
 
-## 📬 Contact
+## Contact
 **Harsh Kushwaha** — Developer & Maintainer  
-- Portfolio: https://portflio-3.vercel.app/ 
+- Portfolio: https://portfolio-harsh7x.vercel.app/ 
 - GitHub: https://github.com/harshkushwaha7x  
 - LinkedIn: https://www.linkedin.com/in/harsh-kushwaha-7x
 - Email: harshkushwaha4151@gmail.com
@@ -242,6 +242,6 @@ This project is licensed under the **MIT License** — see [LICENSE](https://git
 
 <div align="center">
 
-**QUICKGPT** – Unleash Your Creativity with AI 🚀  
+**QUICKGPT** – Unleash Your Creativity with AI  
 Built by <b>Harsh Kushwaha</b>
 </div>
